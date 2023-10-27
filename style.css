@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main,
+.sticky{
+    width: 200px;
+    height: 200px;
+}
+
+.main{
+    background: yellow;
+}
+
+.sticky{
+    background: red;
+}
+
+
+/* 『要素を横並びにする』 */
+/* 「display: flex」を使う */
+/* ※ 横並びしたい要素を全て含ませた親要素にプロパティを使う */
+/* ※ 結果として横並びにはなるが、「display: flex」の本質は横並びにさせることではないらしい */
+.content1{
+    display: flex;
+}
